@@ -20,9 +20,12 @@ public class App {
 		speedingFine (65, true) <b>---></b> 0 <br>
 	 */
 		public static int speedingFine(int speed, boolean isHoliday) {
-			
+			if (speed > 60 && speed <= 80) {
+				return 100;
+			} else if (speed > 80) {
+				return 200;
+			}
 			return 0;
-
 		}
 		
 	
