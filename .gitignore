@@ -2,8 +2,6 @@ dependency-reduced-pom.xml
 *~
 *.orig
 bin
-.classpath
-.project
 .metadata
 .settings
 .loadpath
